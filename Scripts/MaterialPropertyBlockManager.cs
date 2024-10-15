@@ -1,6 +1,7 @@
 using UnityEngine;
 
 [ExecuteAlways]
+[AddComponentMenu("Material Property Block")]
 public class MaterialPropertyBlockManager : MonoBehaviour
 {
     [SerializeField] int materialIndex;
